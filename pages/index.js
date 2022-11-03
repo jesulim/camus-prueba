@@ -42,7 +42,7 @@ const Index = () => {
         <>
           <div>
             <h2>
-              CAMUS
+              CAMUS!!
             </h2>
           </div>
           <Auth supabaseClient={supabase} authView={authView} setAuthView={setAuthView} />
