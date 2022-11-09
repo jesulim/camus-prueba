@@ -41,8 +41,8 @@ const Index = () => {
       return (
         <>
           <div>
-            <h2>
-              CAMUS!!
+            <h2 style={{textAlign: 'center', color: '#283a54'}}>
+              CAMUS
             </h2>
           </div>
           <Auth supabaseClient={supabase} authView={authView} setAuthView={setAuthView} />
@@ -56,7 +56,6 @@ const Index = () => {
           <>
             <h4>Estas logeado</h4>
             <h5>Correo: {user.email}</h5>
-
             <button type="outline" onClick={() => supabase.auth.signOut()}>
               Salir
             </button>
